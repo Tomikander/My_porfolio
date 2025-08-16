@@ -7,7 +7,10 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f0f2f5;
+    background-image: url("images/room.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #1c1e21;
     padding: 20px;
     line-height: 1.6;
@@ -16,14 +19,14 @@
   .container {
     max-width: 800px;
     margin: 0 auto;
-    background: white;
+    background-image: url("images/programming.png");
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     overflow: hidden;
   }
   
   header {
-    background: #4a6fa5;
+    background: #1b07919f;
     color: white;
     padding: 30px 20px;
     text-align: center;
